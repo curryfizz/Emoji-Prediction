@@ -162,3 +162,6 @@ data/glove_dataset/glove.6B.50d.txt
 data/glove_dataset/glove.6B.100d.txt
 data/glove_dataset/glove.6B.200d.txt
 data/glove_dataset/glove.6B.300d.txt
+.vscode/data/glove dataset/glove.6B.50d.txt
+.vscode/data/glove dataset/glove.6B.100d.txt
+.vscode/data/glove dataset/glove.6B.200d.txt
