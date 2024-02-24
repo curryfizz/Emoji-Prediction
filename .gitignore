@@ -158,12 +158,5 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
-data/glove_dataset/glove.6B.50d.txt
-data/glove_dataset/glove.6B.100d.txt
-data/glove_dataset/glove.6B.200d.txt
-data/glove_dataset/glove.6B.300d.txt
-.vscode/data/glove dataset/glove.6B.50d.txt
-.vscode/data/glove dataset/glove.6B.100d.txt
-.vscode/data/glove dataset/glove.6B.200d.txt
-data/fast_text/crawl_dataset/crawl-300d-2M-subword.vec
-data/fast_text/crawl_dataset/crawl-300d-2M-subword.bin
+data/glove_dataset/
+data/fast_text/
