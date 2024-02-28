@@ -13,8 +13,22 @@ with open(filename, 'r') as csvfile:
 modified_rows = []
 for row in filecontent:
     commas = len(row)
-    if row[commas-1].isdigit()==False:
-        continue
+    class_name = row[commas-1]
+    
+    if class_name.isnumeric()==False:
+        class_val = ""
+        for character in class_name:
+            if character!=' ' and character.isdigit():
+                class_val+=character
+            elif character!=' ':
+                class_val = "-"
+                break
+        
+        
+        if class_val=="-":
+            continue
+    
+    
     if commas>2:
         i+=1
         sentence = ''
