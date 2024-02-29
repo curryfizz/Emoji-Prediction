@@ -165,3 +165,5 @@ data/glove_dataset/glove.6B.300d.txt
 .vscode/data/glove dataset/glove.6B.50d.txt
 .vscode/data/glove dataset/glove.6B.100d.txt
 .vscode/data/glove dataset/glove.6B.200d.txt
+data/fast_text/crawl_dataset/crawl-300d-2M-subword.vec
+data/fast_text/crawl_dataset/crawl-300d-2M-subword.bin
