@@ -1,4 +1,6 @@
 import csv
+import random
+
 
 filename = input()
 filename+=".csv"
@@ -39,7 +41,7 @@ for row in filecontent:
         row = new_value
     modified_rows.append(row)
 
-    
+random.shuffle(modified_rows)    
 
 with open(filename, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
