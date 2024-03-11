@@ -10,85 +10,102 @@ Layers used: [256, 16, 4, 2]<br>
 Optimizer: Adam<br>
 Loss function: Categorical Crossentropy<br>
 # Evaluation Results<br>
-Test Loss: 1.2837<br>
-Test Accuracy: 0.5163<br><br>
-Accuracy: 0.5163
+Test Loss: 1.3398<br>
+Test Accuracy: 0.4052<br><br>
+Accuracy: 0.4052
 
 ## Misclassified samples:<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: ❤️ Actual: 👍<br>
-Predicted: 😭 Actual: 🙏<br>
-Predicted: 😭 Actual: 🙏<br>
-Predicted: 😭 Actual: 🙏<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 😭 Actual: 👍<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 😃 Actual: 🙏<br>
 Predicted: 🤔 Actual: 😠<br>
-Predicted: ❤️ Actual: 😃<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: 😭 Actual: 🙏<br>
-Predicted: ❤️ Actual: 😍<br>
-Predicted: ❤️ Actual: 😍<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 😃 Actual: 😂<br>
 Predicted: 🤔 Actual: 😠<br>
-Predicted: ❤️ Actual: 🙏<br>
-Predicted: 🤔 Actual: 🙏<br>
-Predicted: ❤️ Actual: 😍<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: 😭 Actual: 🙏<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: ❤️ Actual: 😍<br>
-Predicted: ❤️ Actual: 😃<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: 😭 Actual: 🙏<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 😃 Actual: 🔥<br>
+Predicted: 😃 Actual: 🙏<br>
 Predicted: 🤔 Actual: 😠<br>
-Predicted: ❤️ Actual: 🙏<br>
-Predicted: 😭 Actual: 🙏<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: ❤️ Actual: 🔥<br>
-Predicted: 🤔 Actual: 😠<br>
-Predicted: ❤️ Actual: 👍<br>
-Predicted: ❤️ Actual: 👍<br>
-Predicted: 😭 Actual: ❤️<br>
-Predicted: ❤️ Actual: 😍<br>
-Predicted: ❤️ Actual: 😍<br>
-Predicted: 🤔 Actual: 😠<br>
-Predicted: 😭 Actual: 🙏<br>
-Predicted: 🤔 Actual: 😠<br>
-Predicted: 😭 Actual: 🙏<br>
-Predicted: 🤔 Actual: 😠<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: ❤️ Actual: 👍<br>
-Predicted: ❤️ Actual: 👍<br>
-Predicted: 😭 Actual: 🙏<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: ❤️ Actual: 😃<br>
-Predicted: 🤔 Actual: 😠<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 😃 Actual: 🔥<br>
 Predicted: 🤔 Actual: 😠<br>
 Predicted: 😃 Actual: 😂<br>
-Predicted: 😭 Actual: 🙏<br>
-Predicted: 😭 Actual: 🔥<br>
+Predicted: 😭 Actual: 👍<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 😭 Actual: 👍<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 😃 Actual: ❤️<br>
 Predicted: 🤔 Actual: 😠<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 😭 Actual: 👍<br>
 Predicted: 🤔 Actual: 😠<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: 🤔 Actual: 😠<br>
-Predicted: 😭 Actual: 🙏<br>
-Predicted: ❤️ Actual: 👍<br>
-Predicted: ❤️ Actual: 😍<br>
-Predicted: 😭 Actual: 🙏<br>
-Predicted: ❤️ Actual: 🙏<br>
-Predicted: 😂 Actual: ❤️<br>
-Predicted: 🤔 Actual: 😠<br>
-Predicted: ❤️ Actual: 😍<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: ❤️ Actual: 😍<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: 🤔 Actual: 😂<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: 😭 Actual: 🔥<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 😃 Actual: ❤️<br>
 Predicted: 😭 Actual: 😠<br>
-Predicted: ❤️ Actual: 😃<br>
-Predicted: ❤️ Actual: 😍<br>
-Predicted: 😭 Actual: 🔥<br>
-Predicted: ❤️ Actual: 😍<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 😭 Actual: 👍<br>
+Predicted: 😭 Actual: 👍<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 😃 Actual: 🔥<br>
+Predicted: 😭 Actual: 😃<br>
 Predicted: 🤔 Actual: 😠<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 🤔 Actual: 😠<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 🤔 Actual: 😠<br>
+Predicted: 😭 Actual: 🤔<br>
+Predicted: 🤔 Actual: 😠<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 🤔 Actual: 😠<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 😭 Actual: 👍<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 😭 Actual: 🙏<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 😃 Actual: 🙏<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 🤔 Actual: 😠<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 🤔 Actual: 😠<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 😃 Actual: ❤️<br>
+Predicted: 🤔 Actual: 🔥<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 🤔 Actual: 😭<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 🤔 Actual: 😠<br>
+Predicted: 😃 Actual: 😂<br>
+Predicted: 😃 Actual: ❤️<br>
 
 ## Random test predictions: (accuracy based on discussion)<br>
 I am trying 😭<br>

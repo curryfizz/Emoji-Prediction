@@ -10,24 +10,35 @@ Layers used: [256, 16, 4, 2]<br>
 Optimizer: Adam<br>
 Loss function: Categorical Crossentropy<br>
 # Evaluation Results<br>
-Test Loss: 0.3827<br>
-Test Accuracy: 0.9150<br><br>
-Accuracy: 0.9150
+Test Loss: 0.4097<br>
+Test Accuracy: 0.8431<br><br>
+Accuracy: 0.8431
 
 ## Misclassified samples:<br>
-Predicted: 😭 Actual: 🤔<br>
-Predicted: 😭 Actual: 🤔<br>
-Predicted: 😭 Actual: 🤔<br>
-Predicted: 😭 Actual: 🤔<br>
-Predicted: 😠 Actual: 🙏<br>
-Predicted: 😭 Actual: 🤔<br>
-Predicted: 😭 Actual: 🤔<br>
-Predicted: 😭 Actual: 🤔<br>
-Predicted: 👍 Actual: 😃<br>
-Predicted: 😭 Actual: 🤔<br>
-Predicted: 😍 Actual: 🙏<br>
-Predicted: 😭 Actual: 🤔<br>
-Predicted: 😭 Actual: 🤔<br>
+Predicted: 🔥 Actual: 👍<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: 🔥 Actual: 👍<br>
+Predicted: 🔥 Actual: 👍<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: 🔥 Actual: 👍<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: 🔥 Actual: 👍<br>
+Predicted: 🔥 Actual: 👍<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: 🔥 Actual: 👍<br>
+Predicted: ❤️ Actual: 🙏<br>
+Predicted: ❤️ Actual: 🙏<br>
 
 ## Random test predictions: (accuracy based on discussion)<br>
 I am trying 😭<br>
