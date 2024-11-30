@@ -18,9 +18,15 @@
 
 3. Open the model_stats.ipynb notebook ~~and make sure all the libraries/packages mentioned above are installed on your device.~~ 
 
-   As the models were trained using keras api 2.0, the latest keras api 3.0 (readme updated on 1 December, 2024) cannot be use to load the models. That's why use the ```pip``` package manager to install the necessary packages present in the environment folder. This command can be used:
+   As the models were trained using keras api 2.0, the latest keras api 3.0 (readme updated on 1 December, 2024) cannot be use to load the models. That's why use the ```pip``` package manager to install the necessary packages present in the environment folder. 
+   This command can be used:
+   For Unix:
    ``` python
    pip install -r environment/model_testing_requirements.txt
+   ```
+   For Windows:
+   ```python
+   pip install -r .\environment\model_testing_requirements.txt
    ```
 
 4. Then copy a name of a model from here **(do not add the extension like .md or .png or .json and so on or the root folder)**. This a image for reference to see which models you can get predictions from:
@@ -55,10 +61,16 @@
 1. Clone this repository.
 2. Make sure your device has python 3.10 or above installed. You can download miniconda and create a python environment to do so as well. 
 3. ~~Install the packages listed in the first cell of the lstm_predictor.ipynb notebook.~~
-As the models were trained using keras api 2.0, the latest keras api 3.0 (readme updated on 1 December, 2024) cannot be use to load newly trained models for prediction in model_stats.ipynb. That's why use the ```pip``` package manager to install the necessary packages present in the environment folder. This command can be used:
-   ``` python
-   pip install -r environment/model_training_requirements.txt
-   ```
+As the models were trained using keras api 2.0, the latest keras api 3.0 (readme updated on 1 December, 2024) cannot be use to load newly trained models for prediction in model_stats.ipynb. That's why use the ```pip``` package manager to install the necessary packages present in the environment folder. This command can be used.
+
+   For Unix:
+      ``` python
+      pip install -r environment/model_training_requirements.txt
+      ```
+   For Windows:
+      ```python
+      pip install -r .\environment\model_training_requirements.txt
+      ```
 
 
 4. Download the crawl-300d-2M-subword.zip: 2 million word vectors trained with subword information on Common Crawl (600B tokens) zip from: https://fasttext.cc/docs/en/english-vectors.html.
