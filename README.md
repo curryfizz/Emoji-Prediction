@@ -14,8 +14,15 @@
 
 ## How to use a model to get predictions:
 1. Clone this repositiory.
-2. Make sure your device has python 3.10 or above installed. You can download miniconda and create a python environment to do so as well.
-3. Open the model_stats.ipynb notebook and make sure all the libraries/packages mentioned above are installed on your device.
+2. Make sure your device has python 3.10 or above installed. ~~You can download miniconda and create a python environment to do so as well.~~ 
+
+3. Open the model_stats.ipynb notebook ~~and make sure all the libraries/packages mentioned above are installed on your device.~~ 
+
+   As the models were trained using keras api 2.0, the latest keras api 3.0 (readme updated on 1 December, 2024) cannot be use to load the models. That's why use the ```pip``` package manager to install the necessary packages present in the environment folder. This command can be used:
+   ``` python
+   pip install -r environment/model_testing_requirements.txt
+   ```
+
 4. Then copy a name of a model from here **(do not add the extension like .md or .png or .json and so on or the root folder)**. This a image for reference to see which models you can get predictions from:
    </br>
    </br>
@@ -28,18 +35,26 @@
    </br>
    </br>
    ![image](https://github.com/curryfizz/Emoji-Prediction/assets/52543544/9a621fe1-9fd6-4b9f-b13d-beb56629f0c0)
-7. Then use the "Run all" option for jupyter notebook and see the results at the end of the model_stats.ipynb notebook. This version has some present already so if you cloned the repo and open the model_stats.ipynb file you will be able to see the results of one of the models used here.
+
+   
+7. Then use the "Run all" option for jupyter notebook and see the results at the end of the model_stats.ipynb notebook. This version has some present already so if you cloned the repo and open the model_stats.ipynb file you will be able to see the results of one of the models used here. 
    
 </br>
 
-## For the next section, please note that training a model on a local device using it's own resources has limitations depending on the specifications of the device. So proceed at your own discretion.
+### For the next section, please note that training a model on a local device using it's own resources has limitations depending on the specifications of the device. So proceed at your own discretion.
 
 </br>
 
 ## How to run the notebook and train a model
 1. Clone this repository.
-2. Make sure your device has python 3.10 or above installed. You can download miniconda and create a python environment to do so as well.
-3. Install the packages listed in the first cell of the lstm_predictor.ipynb notebook. 
+2. Make sure your device has python 3.10 or above installed. You can download miniconda and create a python environment to do so as well. 
+3. ~~Install the packages listed in the first cell of the lstm_predictor.ipynb notebook.~~
+As the models were trained using keras api 2.0, the latest keras api 3.0 (readme updated on 1 December, 2024) cannot be use to load newly trained models for prediction in model_stats.ipynb. That's why use the ```pip``` package manager to install the necessary packages present in the environment folder. This command can be used:
+   ``` python
+   pip install -r environment/model_training_requirements.txt
+   ```
+
+
 4. Download the crawl-300d-2M-subword.zip: 2 million word vectors trained with subword information on Common Crawl (600B tokens) zip from: https://fasttext.cc/docs/en/english-vectors.html.
 5. Create a subfolder in the data folder called "fast_text" and then another subfolder in the newly created "fast_text" folder called "crawl_dataset".
 6. Extract the contents of the downloaded zipped folder into the "crawl_dataset" folder. Since this part seems a little messy, look at the project/folder structure below for reference (this is using Visual Studio Code):
