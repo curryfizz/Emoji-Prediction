@@ -14,7 +14,7 @@
 
 ## How to use a model to get predictions:
 1. Clone this repositiory.
-2. Make sure your device has python 3.10 or above installed. ~~You can download miniconda and create a python environment to do so as well.~~ 
+2. Make sure your device has python 3.10 or above installed. You can download miniconda and create a python environment to do so as well.
 
 3. Open the model_stats.ipynb notebook ~~and make sure all the libraries/packages mentioned above are installed on your device.~~ 
 
@@ -36,8 +36,14 @@
    </br>
    ![image](https://github.com/curryfizz/Emoji-Prediction/assets/52543544/9a621fe1-9fd6-4b9f-b13d-beb56629f0c0)
 
+    To test accuracy also add to expected emoji class to the "test_labels" array. Follow the Emoji Dictionary in the notebook to add proper labels.
+   ![image](https://github.com/user-attachments/assets/f4fd8a44-c81d-4095-a7e4-951dc29d86a3)
+
+    The emoji dictionary:
+   ![image](https://github.com/user-attachments/assets/d579a319-9a1d-42b4-87c9-d13509c2350e)
+
    
-7. Then use the "Run all" option for jupyter notebook and see the results at the end of the model_stats.ipynb notebook. This version has some present already so if you cloned the repo and open the model_stats.ipynb file you will be able to see the results of one of the models used here. 
+8. Then use the "Run all" option for jupyter notebook and see the results at the end of the model_stats.ipynb notebook. This version has some present already so if you cloned the repo and open the model_stats.ipynb file you will be able to see the results of one of the models used here. 
    
 </br>
 
